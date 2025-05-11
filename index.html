@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning for Kids</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo-container">
+            <img src="https://via.placeholder.com/50" alt="English Learning Logo" class="logo">
+            <h1>English Learning</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#vocabulary">Vocabulary</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Learn English While Having Fun!</h2>
+            <p>Discover our interactive courses designed specifically for kids aged 5-12. From basic vocabulary to advanced grammar, we make learning enjoyable!</p>
+            <div class="levels">
+                <div class="level-box basic">
+                    <h3>Basic</h3>
+                    <p>Alphabet, Numbers, Colors</p>
+                </div>
+                <div class="level-box intermediate">
+                    <h3>Intermediate</h3>
+                    <p>Verbs, Daily Phrases</p>
+                </div>
+                <div class="level-box advanced">
+                    <h3>Advanced</h3>
+                    <p>Grammar, Conversations</p>
+                </div>
+            </div>
+            <button class="cta-btn" id="startNow">Start Now!</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/400x300" alt="Kids learning English">
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <h2>Our Courses</h2>
+        <div class="course-levels">
+            <!-- Basic Level -->
+            <div class="course-level">
+                <h3>Basic Level</h3>
+                <div class="lesson-cards">
+                    <div class="lesson-card">
+                        <img src="https://via.placeholder.com/150" alt="Alphabet">
+                        <h4>The Alphabet</h4>
+                        <button class="audio-btn" data-audio="alphabet.mp3">
+                            <i class="fas fa-volume-up"></i> Listen
+                        </button>
+                        <button class="start-lesson">Start Lesson</button>
+                    </div>
+                    <div class="lesson-card">
+                        <img src="https://via.placeholder.com/150" alt="Numbers">
+                        <h4>Numbers 1-20</h4>
+                        <button class="audio-btn" data-audio="numbers.mp3">
+                            <i class="fas fa-volume-up"></i> Listen
+                        </button>
+                        <button class="start-lesson">Start Lesson</button>
+                    </div>
+                    <!-- More basic lessons... -->
+                </div>
+            </div>
+            
+            <!-- Intermediate Level -->
+            <div class="course-level">
+                <h3>Intermediate Level</h3>
+                <div class="lesson-cards">
+                    <div class="lesson-card">
+                        <img src="https://via.placeholder.com/150" alt="Verbs">
+                        <h4>Action Verbs</h4>
+                        <button class="audio-btn" data-audio="verbs.mp3">
+                            <i class="fas fa-volume-up"></i> Listen
+                        </button>
+                        <button class="start-lesson">Start Lesson</button>
+                    </div>
+                    <!-- More intermediate lessons... -->
+                </div>
+            </div>
+            
+            <!-- Advanced Level -->
+            <div class="course-level">
+                <h3>Advanced Level</h3>
+                <div class="lesson-cards">
+                    <div class="lesson-card">
+                        <img src="https://via.placeholder.com/150" alt="Grammar">
+                        <h4>Simple Grammar</h4>
+                        <button class="audio-btn" data-audio="grammar.mp3">
+                            <i class="fas fa-volume-up"></i> Listen
+                        </button>
+                        <button class="start-lesson">Start Lesson</button>
+                    </div>
+                    <!-- More advanced lessons... -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games">
+        <h2>Learning Games</h2>
+        <div class="game-cards">
+            <div class="game-card" id="wordSearch">
+                <h3>Word Search</h3>
+                <p>Find hidden English words</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+            <div class="game-card" id="memoryGame">
+                <h3>Memory Cards</h3>
+                <p>Match pictures with words</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+            <div class="game-card" id="quizGame">
+                <h3>English Quiz</h3>
+                <p>Test your knowledge</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vocabulary Section -->
+    <section id="vocabulary" class="vocabulary">
+        <h2>Vocabulary Builder</h2>
+        <div class="search-box">
+            <input type="text" placeholder="Search for words..." id="vocabSearch">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="vocab-categories">
+            <div class="category">
+                <h3>Food</h3>
+                <div class="vocab-items">
+                    <div class="vocab-item">
+                        <img src="https://via.placeholder.com/80" alt="Apple">
+                        <p>Apple</p>
+                        <button class="audio-btn" data-audio="apple.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </div>
+                    <!-- More food items... -->
+                </div>
+            </div>
+            <div class="category">
+                <h3>Animals</h3>
+                <div class="vocab-items">
+                    <div class="vocab-item">
+                        <img src="https://via.placeholder.com/80" alt="Dog">
+                        <p>Dog</p>
+                        <button class="audio-btn" data-audio="dog.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </div>
+                    <!-- More animal items... -->
+                </div>
+            </div>
+            <!-- More categories... -->
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos">
+        <h2>Learning Videos</h2>
+        <div class="video-container">
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <h3>The Alphabet Song</h3>
+            </div>
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <h3>Counting to 20</h3>
+            </div>
+            <!-- More videos... -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="faq">
+                <h3>FAQs</h3>
+                <div class="faq-item">
+                    <button class="faq-question">What age group is this for?<i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Our program is designed for children ages 5-12, with content tailored to different learning levels.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Is there a cost?<i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>All our basic content is free! We offer premium features for advanced learning.</p>
+                    </div>
+                </div>
+                <!-- More FAQs... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>English Learning</h3>
+                <p>Making English fun and accessible for kids worldwide.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#games">Games</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 English Learning. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Audio Element (hidden) -->
+    <audio id="audioPlayer"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
